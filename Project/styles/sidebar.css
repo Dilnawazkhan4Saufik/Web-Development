@@ -1,0 +1,64 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+
+    width: 72px;
+    background-color: white;
+    
+    z-index: 200px;
+
+    padding-top: 5px;
+}
+
+.sidebar-link {
+    height: 74px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+/* 
+.sidebar-link, sidebar-icon => this means apply css on mentioned classes
+{
+    height: 76px;
+}
+
+
+.sidebar-link sidebar-icon ==> space means first's(class') child should have
+the mentioned css only
+{
+    height: 76px;
+}
+
+*/
+
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Aerial;
+    font-size: 10px;
+
+
+}
+
+
+.sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-icon {
+    /* width: 40px;
+    height: 40px; */
+}

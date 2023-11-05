@@ -1,0 +1,30 @@
+#withSpace,
+#withGreatorThan,
+#withTilde,
+#withPlus {
+    border: 2px solid;
+}
+
+/* combinator with space */
+
+#withSpace p {
+    background-color: #dd7c3b;
+}
+
+/* combinator with > */
+#withGreatorThan>p {
+    background-color: #ac3bdd;
+}
+
+
+/* combinator with ~ */
+
+#withTilde~p {
+    background-color: #3bdd81;
+}
+
+/* combinator with + */
+
+#withPlus+p {
+    background-color: #dddd3b;
+}

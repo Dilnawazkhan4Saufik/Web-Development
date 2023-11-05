@@ -1,0 +1,36 @@
+h1::first-letter {
+    font-size: 2em;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: rgb(239, 239, 95);
+}
+
+p::selection {
+    color: whitesmoke;
+    background-color: crimson;
+}
+
+#fruit li::before {
+    /* content: "✔️"; */
+}
+
+#apple::after {
+    content: "🍎";
+}
+
+#orange::after {
+    content: "🍊";
+}
+
+#banana::after {
+    content: "🍌";
+}
+
+#fruit li::marker {
+    content: "✅";
+    color: hsl(120, 100%, 53%);
+    font-size: 20px;
+}

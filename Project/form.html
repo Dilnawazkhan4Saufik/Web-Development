@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <p>Form Examples</p>
+    <!-- sending large data needs enctype for spliting data into parts -->
+    <form action="where to submit" method="get/post post for sensitive data" enctype="multipart/form-data">
+        <!-- for is used to focus to input if its clicked and input has the same name as id -->
+        <label for="username">User Name: </label>
+        <input id="username" type="text" placeholder="Enter your full name" required minlength="6" maxlength="7">
+        <br>
+        <label for="password">Password </label>
+        <input type="password" id="password" placeholder="Enter your password" required minlength="6" maxlength="7">
+        <br>
+        <label for="email">Email </label>
+        <input type="email" id="email" placeholder="johndoe@test.com" required minlength="6" maxlength="7">
+        <br>
+        <label for="phone">Phone </label>
+        <input type="tel" id="phone" placeholder="enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+            minlength="6" maxlength="7">
+        <br>
+
+        <label for="dob">Birth Date </label>
+        <input type="date" id="dob" placeholder="enter DoB" required minlength="6" maxlength="7">
+
+        <label for="quan">Quantity </label>
+        <input type="number" id="quan" placeholder="enter quantity" min="0" max="9" value="1" required minlength="6"
+            maxlength="7">
+        <br>
+
+        <label for="mr">Mr. :</label>
+        <input type="radio" id="mr" value="mr" name="title">
+        <label for="mrs">Mrs. :</label>
+        <input type="radio" id="mrs" value="mrs" name="title">
+        <label for="phd">PhD. :</label>
+        <input type="radio" id="phd" value="phd" name="title">
+
+        <br>
+
+        <label for="payment">Payment</label>
+        <select name="" id="payment">
+            <option value="visa"> VISA</option>
+            <option value="mastercard"> MasterCard</option>
+            <option value="gif"> Gif card</option>
+        </select>
+
+        <br>
+
+        <label for="checkbox">Subscribe</label>
+        <input type="checkbox" id="checkbox">
+
+        <br>
+
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" rows="3" cols="20"></textarea>
+        <br>
+
+        <label for="file">File: </label>
+        <input type="file" id="file" accept="image/png, image/jpg">
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

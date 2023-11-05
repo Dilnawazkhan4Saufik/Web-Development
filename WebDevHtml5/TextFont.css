@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+
+h1 {
+    font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Roboto-Regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 1em; /*1em= 100% = 16px*/
+
+}

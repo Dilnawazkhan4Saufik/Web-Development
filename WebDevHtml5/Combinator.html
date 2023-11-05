@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Combinator.css">
+</head>
+
+<body>
+    <!-- 
+        combinators = explains the relationship
+        between listed selectors
+        1     = (space) descendent
+        2  > = child
+        3  ~ = general sibling
+        4  + = adjacent sibling    
+     -->
+
+    <p> combinator with space descendent</p>
+
+    <div id="withSpace">
+        <p>p1</p>
+        <p>p2</p>
+        <div>
+            <p>p3</p>
+        </div>
+    </div>
+
+
+
+
+    <p> combinator with > child </p>
+
+    <div id="withGreatorThan">
+        <p>p1</p>
+        <p>p2</p>
+        <div>
+            <p>p3</p>
+        </div>
+    </div>
+
+
+    <p> combinator with ~ general sibling </p>
+
+    <div id="withTilde">
+        <p>p1</p>
+        <p>p2</p>
+        <div>
+            <p>p3</p>
+        </div>
+    </div>
+
+    <p>p4</p>
+    <p>p5</p>
+
+
+
+    <span> combinator with + adjacent sibling </span>
+
+
+    <div id="withPlus">
+        <p>p1</p>
+        <p>p2</p>
+        <div>
+            <p>p3</p>
+        </div>
+    </div>
+
+    <p>p4</p>
+    <p>p5</p>
+
+
+
+
+</body>
+
+</html>
